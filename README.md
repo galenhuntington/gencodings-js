@@ -1,4 +1,4 @@
-**gencodings-js** provides two binary-to-text encodings and decodings
+**gencodings** provides two binary-to-text encodings and decodings
 for use in JavaScript, including Node.js.  These are similar to
 Base64 encoding, in that they provide a way to represent binary data
 in pure ASCII.
