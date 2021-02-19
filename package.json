@@ -1,0 +1,10 @@
+{ 
+  "name": "gencodings", 
+  "version": "0.0.0", 
+  "author": "Galen Huntington",
+  "homepage": "https://github.com/galenhuntington/gencodings-js",
+  "repository": "git+https://github.com/galenhuntington/gencodings-js",
+  "main": "index.js", 
+  "license": "MIT", 
+  "type": "module"
+}
