@@ -23,3 +23,19 @@ Base-32](https://www.crockford.com/base32.html), is recommended if
 it is desired to have a case-insensitive encoding, at the cost of
 requiring more characters.
 
+##  Usage
+
+The functions `g60Encode`, `g60Decode`, `g86Encode`, `g86Decode`
+are exported.  Also exported are the objects `G60` and `G86`, each
+of which have properties `encode` and `decode`.
+
+The encoders take an ArrayBuffer and return a JavaScript string,
+while the decoders do the reverse.
+
+```javascript
+import { G60, g86Decode } from "gencodings";
+
+console.log(g60Encode(g86Decode("0H_fZQ{)BO)~boV#*k#m[R{{J2)ahL$Xwhks56l[")));
+// -> 8TAB1GT5CjX4TGY6u6kxc8eGTdR7P3g8U1uLn3jsXM2H
+```
+
